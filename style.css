@@ -10,6 +10,8 @@
 body {
     background-color:aliceblue;
     position: relative;
+    user-select: none;
+    
 }
 
 .start {
@@ -69,6 +71,7 @@ cursor: pointer;
     border: 2px solid #000;
     border-radius: 5px;
     padding: .2rem;
+   
 }
 
 .hover1:hover {
@@ -94,6 +97,7 @@ cursor: pointer;
     border: 2px solid #000;
     opacity: .3;
     pointer-events: none;
+
 }
 
 .next:hover {
@@ -133,11 +137,13 @@ border: 2px solid #fff !important;
 .pointer-event-none {
     pointer-events: none;
     opacity: .3;
+
 }
 
 .pointer-event {
     pointer-events: auto !important;
     opacity: 1 !important;
+
 }
 
 .end {
